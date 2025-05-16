@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const NavbarLayout = () => {
   return (
     <div className="flex flex-col min-h-screen scroll-smooth">
-      {/* Sticky Navbar */}
+    
       <header className="bg-gray-900 text-white sticky top-0 z-50 shadow-md">
         <nav className="container mx-auto flex justify-between items-center px-6 py-4">
           <div className="flex items-center space-x-3">
-            {/* Placeholder for Logo */}
+             
             <div className="w-8 h-8 bg-white text-gray-900 font-bold flex items-center justify-center rounded-full">
               N
             </div>
