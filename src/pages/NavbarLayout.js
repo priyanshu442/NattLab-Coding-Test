@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavbarLayout = () => {
   return (
-    <div className="flex flex-col min-h-screen scroll-smooth">
+    <div className="flex flex-col  scroll-smooth">
     
       <header className="bg-gray-900 text-white sticky top-0 z-50 shadow-md">
         <nav className="container mx-auto flex justify-between items-center px-6 py-4">
@@ -52,16 +52,7 @@ const NavbarLayout = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-24 text-center">
-        <div className="container mx-auto px-6">
-          <h1 className="text-5xl font-bold mb-6">
-            Empowering Developers with Modern Web Tools
-          </h1>
-          <p className="text-lg max-w-2xl mx-auto">
-            At <span className="font-semibold">NattLabs</span>, we build open-source tools, educational apps, and UI components to help developers learn and grow with React and modern web technologies.
-          </p>
-        </div>
-      </section>
+      
     </div>
   );
 };
